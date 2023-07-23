@@ -13,12 +13,12 @@ root.render(
     <Router>
        <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/CodeMentorHub' element={<Home/>}/>
-            <Route path='/CodeMentorHub/home' element={<Home/>}/>
-            <Route path='/CodeMentorHub/courses' element={<App/>}/>
-            <Route path='/CodeMentorHub/discussions' element={<Discussions/>}/>
-            <Route path='/CodeMentorHub/ourteams' element={<Ourteams/>}/>
-            <Route path='/CodeMentorHub/tests' element={<Test/>}/>
+            <Route path='/CodeMentorHubOld' element={<Home/>}/>
+            <Route path='/CodeMentorHubOld/home' element={<Home/>}/>
+            <Route path='/CodeMentorHubOld/courses' element={<App/>}/>
+            <Route path='/CodeMentorHubOld/discussions' element={<Discussions/>}/>
+            <Route path='/CodeMentorHubOld/ourteams' element={<Ourteams/>}/>
+            <Route path='/CodeMentorHubOld/tests' element={<Test/>}/>
 
 
        </Routes>
